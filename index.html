@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu"><img src="./images/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#lista_1">Promociones</a></li>
+                    <li><a href="#lista_2">Productos</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="./images/car.svg" id="img-carrito" alt="cart">
+                        <div id="carrito">
+                            <table id="lista_carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar_carrito" class="btn_3">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="header_info">
+                            <div class="header_txt">
+                                <h1>Audifonos Premium - Version 1</h1>
+                                <div class="prices">
+                                    <p class="price_1">$199</p>
+                                    <p class="price_2">$150</p>
+                                </div>
+                                <a href="#" class="btn_1">Informacion</a>
+                            </div>
+                            <div class="header_img">
+                                <img src="./images/bg1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header_info">
+                            <div class="header_txt">
+                                <h1>Audifonos Premium - Version 2</h1>
+                                <div class="prices">
+                                    <p class="price_1">$199</p>
+                                    <p class="price_2">$150</p>
+                                </div>
+                                <a href="#" class="btn_1">Informacion</a>
+                            </div>
+                            <div class="header_img">
+                                <img src="./images/bg2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header_info">
+                            <div class="header_txt">
+                                <h1>Audifonos Premium - Version 3</h1>
+                                <div class="prices">
+                                    <p class="price_1">$199</p>
+                                    <p class="price_2">$150</p>
+                                </div>
+                                <a href="#" class="btn_1">Informacion</a>
+                            </div>
+                            <div class="header_img">
+                                <img src="./images/bg3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <section class="promos container" id="lista_1">
+        <h2>Promociones</h2>
+        <div class="categories">
+            <div class="categorie">
+                <div class="categorie_1">
+                    <h3>Promo 1</h3>
+                    <div class="prices">   
+                        <p class="price_1">$199</p>
+                        <p class="precio">$150</p>
+                    </div>
+                    <a href="#" class="agregar_carrito btn_3" data-id="1">Agregar al carrito</a>
+                </div>
+                <div class="categorie img">
+                    <img src="./images/ph1.png" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie_1">
+                    <h3>Promo 2</h3>
+                    <div class="prices">   
+                        <p class="price_1">$199</p>
+                        <p class="precio">$150</p>
+                    </div>
+                    <a href="#" class="agregar_carrito btn_3" data-id="2">Agregar al carrito</a>
+                </div>
+                <div class="categorie img">
+                    <img src="./images/ph2.png" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie_1">
+                    <h3>Promo 3</h3>
+                    <div class="prices">   
+                        <p class="price_1">$199</p>
+                        <p class="precio">$150</p>
+                    </div>
+                    <a href="#" class="agregar_carrito btn_3" data-id="3">Agregar al carrito</a>
+                </div>
+                <div class="categorie img">
+                    <img src="./images/ph3.png" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie_1">
+                    <h3>Promo 4</h3>
+                    <div class="prices">   
+                        <p class="price_1">$199</p>
+                        <p class="precio">$150</p>
+                    </div>
+                    <a href="#" class="agregar_carrito btn_3" data-id="4">Agregar al carrito</a>
+                </div>
+                <div class="categorie img">
+                    <img src="./images/ph4.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <hr>
+    <section class="products container" id="lista_2">
+        <h2>Nuevos Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="./images/bg1.png" alt="">
+                        <div class="produt_txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar_carrito btn_3" data-id="5">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="./images/ph5.png" alt="">
+                        <div class="produt_txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar_carrito btn_3" data-id="6">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="./images/ph6.png" alt="">
+                        <div class="produt_txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar_carrito btn_3" data-id="7">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="./images/ph4.png" alt="">
+                        <div class="produt_txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar_carrito btn_3" data-id="8">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </section>
+    <hr>
+    <section class="products container" id="lista_3">
+        <h2>Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="./images/ph6.png" alt="">
+                        <div class="produt_txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar_carrito btn_3" data-id="9">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="./images/ph5.png" alt="">
+                        <div class="produt_txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar_carrito btn_3" data-id="10">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="./images/ph4.png" alt="">
+                        <div class="produt_txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar_carrito btn_3" data-id="11">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="./images/ph3.png" alt="">
+                        <div class="produt_txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar_carrito btn_3" data-id="12">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </section>
+
+    <footer class="footer container" id="footer">
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>lorem</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis vel autem, sapiente possimus amet qui libero reiciendis incidunt exercitationem dignissimos impedit consectetur recusandae nostrum ea nemo quos facere inventore tempore!
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
